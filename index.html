@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./main.css" rel="stylesheet">
+    <script src="canva.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table id = "tab">
+            <tr>
+                <th>Fecha</th>
+                <th>No. de reporte</th>
+                <th>Equipo</th>
+                <th>Descripcion</th>
+                <th>Destino</th>
+                <th>Gasto</th>
+                <th>Total</th>
+            </tr>
+        </table>
+        <table id="actionT">
+            <tr>
+                <th>
+                    Accion
+                </th>
+            </tr>
+        </table>
+
+    </div>
+    <br>
+    <button type="button" id="cap">Captura</button>
+    <button type="button" id="del">Borrar todo</button>
+    <br>
+    <form>
+        <h3>Nuevo reporte</h3>
+        <h5>Fecha</h5>
+        <input type="date" id="fecha">
+        <h5>Reporte</h5>
+        <input type="text" id="rep">
+        <h5>Equipo</h5>
+        <input type="text" id="eq">
+        <h5>Descripción</h5>
+        <input type="text" id="desc">
+        <h5>Destino</h5>
+        <input type="text" id="dest">
+        <h5>Gasto</h5>
+        <input type="text" id="gas">
+        <br>
+        <input type="button" value="Añadir" id="add">
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
